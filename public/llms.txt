@@ -1,0 +1,25 @@
+# Hidayah Companion Pro
+
+Hidayah Companion Pro is a comprehensive Islamic lifestyle application designed to assist Muslims in their daily religious practices.
+
+## Core Features
+1. **Prayer Times**: Accurate location-based prayer times with Adhan notifications.
+2. **Holy Quran**: Complete digital Quran with translations and audio recitations.
+3. **Qibla Direction**: Precise compass to locate the Qibla from anywhere.
+4. **Hijri Calendar**: Islamic calendar with important dates and events.
+5. **Tasbih Counter**: Digital tool for tracking dhikr.
+6. **Azkar & Duas**: Collection of daily supplications.
+7. **Mosque Finder**: Locate nearby mosques.
+8. **Ramadan Mode**: Special features for fasting tracking and Suhoor/Iftar times.
+
+## Platform
+- **Type**: Mobile Application (Android/iOS)
+- **Website**: Landing page built with Next.js
+- **Download**: Available on Google Play Store
+
+## Developer
+Developed by Taqaddus Shafi.
+
+## Links
+- Website: https://hidayahcompanionpro.online
+- Play Store: https://play.google.com/store/apps/details?id=com.islamiccalander.pro
