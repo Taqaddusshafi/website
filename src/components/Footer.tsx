@@ -33,7 +33,7 @@ export default function Footer() {
 
             <div className="space-y-4 pt-2">
               <a 
-                href="mailto:support@hidayahcompanionpro.online" 
+                href="mailto:support@hidayahcompanion.pro" 
                 className="group flex items-start gap-3 p-3 rounded-xl bg-gray-800/50 hover:bg-gray-800 transition-all border border-transparent hover:border-gray-700"
               >
                 <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
@@ -44,13 +44,13 @@ export default function Footer() {
                 <div>
                   <div className="text-white font-medium text-sm mb-0.5">App Support</div>
                   <div className="text-gray-400 text-xs break-all group-hover:text-primary/90 transition-colors">
-                    support@hidayahcompanionpro.online
+                    support@hidayahcompanion.pro
                   </div>
                 </div>
               </a>
 
               <a 
-                href="mailto:info@hidayahcompanionpro.online" 
+                href="mailto:info@hidayahcompanion.pro" 
                 className="group flex items-start gap-3 p-3 rounded-xl bg-gray-800/50 hover:bg-gray-800 transition-all border border-transparent hover:border-gray-700"
               >
                 <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0 group-hover:bg-blue-500/20 transition-colors">
@@ -61,7 +61,7 @@ export default function Footer() {
                 <div>
                   <div className="text-white font-medium text-sm mb-0.5">Suggestions</div>
                   <div className="text-gray-400 text-xs break-all group-hover:text-blue-400 transition-colors">
-                    info@hidayahcompanionpro.online
+                    info@hidayahcompanion.pro
                   </div>
                 </div>
               </a>
@@ -130,7 +130,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:support@hidayahcompanionpro.online"
+                  href="mailto:support@hidayahcompanion.pro"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact Us

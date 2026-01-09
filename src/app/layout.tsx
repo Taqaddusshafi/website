@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hidayahcompanionpro.online'),
+  metadataBase: new URL('https://hidayahcompanion.pro'),
   title: "Hidayah Companion Pro - Complete Islamic App",
   description: "Your complete Islamic companion app: Quran, Prayer Times, Qibla Direction, Hijri Calendar, Azkar, Tasbih, Hadith, and more. Download now on Google Play.",
   keywords: "Islamic app, Prayer times, Quran, Qibla, Hijri calendar, Muslim app, Azkar, Tasbih, Hadith, Ramadan, Islamic calendar",

@@ -1,5 +1,5 @@
 export async function submitToIndexNow(urls: string[]) {
-  const host = 'hidayahcompanionpro.online';
+  const host = 'hidayahcompanion.pro';
   const key = '25c6c745778a48b99c07147820658421';
   const keyLocation = `https://${host}/${key}.txt`;
 

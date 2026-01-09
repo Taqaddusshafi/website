@@ -1,6 +1,6 @@
 import { submitToIndexNow } from './src/lib/indexnow';
 
-const baseUrl = 'https://hidayahcompanionpro.online';
+const baseUrl = 'https://hidayahcompanion.pro';
 
 const urls = [
   baseUrl,
