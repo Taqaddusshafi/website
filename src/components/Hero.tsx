@@ -66,6 +66,21 @@ export default function Hero() {
               </a>
               
               <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-3 bg-[#C7000B] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl"
+              >
+                <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9.135 15.328a2.532 2.532 0 0 0 1.957-.93 2.535 2.535 0 0 0 0-3.23 2.529 2.529 0 0 0-1.956-.93 2.54 2.54 0 0 0-1.959.93 2.545 2.545 0 0 0 0 3.23 2.562 2.562 0 0 0 1.958.93zm5.674 0a2.532 2.532 0 0 0 1.957-.93 2.535 2.535 0 0 0 0-3.23 2.529 2.529 0 0 0-1.957-.93 2.54 2.54 0 0 0-1.959.93 2.545 2.545 0 0 0 0 3.23 2.562 2.562 0 0 0 1.959.93zM12.022 4.088a2.637 2.637 0 0 0-1.97.892 2.639 2.639 0 0 0 .012 3.678 2.656 2.656 0 0 0 1.958.847 2.66 2.66 0 0 0 1.97-.847 2.639 2.639 0 0 0 .012-3.678 2.637 2.637 0 0 0-1.982-.892zm0 15.824a2.64 2.64 0 0 0-1.97-.892 2.66 2.66 0 0 0-1.97.846 2.637 2.637 0 0 0 .012 3.677 2.66 2.66 0 0 0 3.928 0 2.637 2.637 0 0 0 .012-3.677 2.64 2.64 0 0 0-1.983-.846zM15.488 7.5a2.583 2.583 0 0 0-1.802-.732 2.592 2.592 0 0 0-1.85 4.41l.036.035a2.586 2.586 0 0 0 3.615-.034l.036-.036a2.593 2.593 0 0 0-.036-3.642zm-6.9 0a2.585 2.585 0 0 0-1.801.733 2.592 2.592 0 0 0-.037 3.642l.036.035a2.586 2.586 0 0 0 3.615.035l.036-.036a2.592 2.592 0 0 0-1.85-4.409z" />
+                </svg>
+                <div className="text-left">
+                  <div className="text-xs opacity-70">Get it on</div>
+                  <div className="text-lg font-bold -mt-1">AppGallery</div>
+                </div>
+              </a>
+              
+              <a
                 href="#features"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-all"
               >

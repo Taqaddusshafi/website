@@ -81,25 +81,21 @@ export default function Download() {
               </div>
             </div>
 
-            {/* Huawei App Gallery - Coming Soon */}
-            <div className="relative group">
-              <button 
-                disabled
-                className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white/50 px-6 py-3 rounded-2xl cursor-not-allowed w-64 justify-start grayscale"
-              >
-                <svg className="w-8 h-8 shrink-0 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M9.135 15.328a2.532 2.532 0 0 0 1.957-.93 2.535 2.535 0 0 0 0-3.23 2.529 2.529 0 0 0-1.956-.93 2.54 2.54 0 0 0-1.959.93 2.545 2.545 0 0 0 0 3.23 2.562 2.562 0 0 0 1.958.93zm5.674 0a2.532 2.532 0 0 0 1.957-.93 2.535 2.535 0 0 0 0-3.23 2.529 2.529 0 0 0-1.957-.93 2.54 2.54 0 0 0-1.959.93 2.545 2.545 0 0 0 0 3.23 2.562 2.562 0 0 0 1.959.93zM12.022 4.088a2.637 2.637 0 0 0-1.97.892 2.639 2.639 0 0 0 .012 3.678 2.656 2.656 0 0 0 1.958.847 2.66 2.66 0 0 0 1.97-.847 2.639 2.639 0 0 0 .012-3.678 2.637 2.637 0 0 0-1.982-.892zm0 15.824a2.64 2.64 0 0 0-1.97-.892 2.66 2.66 0 0 0-1.97.846 2.637 2.637 0 0 0 .012 3.677 2.66 2.66 0 0 0 3.928 0 2.637 2.637 0 0 0 .012-3.677 2.64 2.64 0 0 0-1.983-.846zM15.488 7.5a2.583 2.583 0 0 0-1.802-.732 2.592 2.592 0 0 0-1.85 4.41l.036.035a2.586 2.586 0 0 0 3.615-.034l.036-.036a2.593 2.593 0 0 0-.036-3.642zm-6.9 0a2.585 2.585 0 0 0-1.801.733 2.592 2.592 0 0 0-.037 3.642l.036.035a2.586 2.586 0 0 0 3.615.035l.036-.036a2.592 2.592 0 0 0-1.85-4.409z" />
-                </svg>
-                <div className="text-left">
-                  <div className="text-[10px] opacity-70 uppercase tracking-wider leading-none mb-1">Coming Soon to</div>
-                  <div className="text-lg font-bold leading-none">AppGallery</div>
-                </div>
-              </button>
-               {/* Badge */}
-               <div className="absolute -top-3 -right-2 bg-accent-gold text-black text-[10px] font-bold px-2 py-1 rounded-full shadow-lg transform rotate-6 border border-white/20">
-                SOON
+            {/* Huawei App Gallery - Active */}
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#C7000B] text-white px-6 py-3 rounded-2xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl w-64 justify-start"
+            >
+              <svg className="w-8 h-8 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M9.135 15.328a2.532 2.532 0 0 0 1.957-.93 2.535 2.535 0 0 0 0-3.23 2.529 2.529 0 0 0-1.956-.93 2.54 2.54 0 0 0-1.959.93 2.545 2.545 0 0 0 0 3.23 2.562 2.562 0 0 0 1.958.93zm5.674 0a2.532 2.532 0 0 0 1.957-.93 2.535 2.535 0 0 0 0-3.23 2.529 2.529 0 0 0-1.957-.93 2.54 2.54 0 0 0-1.959.93 2.545 2.545 0 0 0 0 3.23 2.562 2.562 0 0 0 1.959.93zM12.022 4.088a2.637 2.637 0 0 0-1.97.892 2.639 2.639 0 0 0 .012 3.678 2.656 2.656 0 0 0 1.958.847 2.66 2.66 0 0 0 1.97-.847 2.639 2.639 0 0 0 .012-3.678 2.637 2.637 0 0 0-1.982-.892zm0 15.824a2.64 2.64 0 0 0-1.97-.892 2.66 2.66 0 0 0-1.97.846 2.637 2.637 0 0 0 .012 3.677 2.66 2.66 0 0 0 3.928 0 2.637 2.637 0 0 0 .012-3.677 2.64 2.64 0 0 0-1.983-.846zM15.488 7.5a2.583 2.583 0 0 0-1.802-.732 2.592 2.592 0 0 0-1.85 4.41l.036.035a2.586 2.586 0 0 0 3.615-.034l.036-.036a2.593 2.593 0 0 0-.036-3.642zm-6.9 0a2.585 2.585 0 0 0-1.801.733 2.592 2.592 0 0 0-.037 3.642l.036.035a2.586 2.586 0 0 0 3.615.035l.036-.036a2.592 2.592 0 0 0-1.85-4.409z" />
+              </svg>
+              <div className="text-left">
+                <div className="text-[10px] opacity-70 uppercase tracking-wider leading-none mb-1">Get it on</div>
+                <div className="text-lg font-bold leading-none">AppGallery</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
