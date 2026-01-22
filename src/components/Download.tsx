@@ -88,9 +88,9 @@ export default function Download() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#C7000B] text-white px-6 py-3 rounded-2xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl w-64 justify-start"
             >
-              <svg className="w-8 h-8 shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12zm-7-8c-1.66 0-3-1.34-3-3H9c0 1.66 1.34 3 3 3s3-1.34 3-3h-2c0 1.66-1.34 3-3 3z" />
-              </svg>
+              <div className="w-8 h-8 shrink-0 relative">
+                <img src="/huawei-appgallery.png" alt="Huawei AppGallery" className="w-full h-full object-contain" />
+              </div>
               <div className="text-left">
                 <div className="text-[10px] opacity-70 uppercase tracking-wider leading-none mb-1">Get it on</div>
                 <div className="text-lg font-bold leading-none">AppGallery</div>
