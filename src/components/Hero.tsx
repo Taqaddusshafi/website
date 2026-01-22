@@ -71,9 +71,12 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-[#C7000B] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl"
               >
-                <div className="w-8 h-8 shrink-0 relative">
-                  <img src="/huawei-appgallery.png" alt="Huawei AppGallery" className="w-full h-full object-contain" />
-                </div>
+                <svg className="w-8 h-8 shrink-0" viewBox="0 0 32 32" fill="currentColor">
+                  <path d="M16 2L13.5 7.5L8 9L13.5 11.5L16 17L18.5 11.5L24 9L18.5 7.5L16 2Z" />
+                  <path d="M16 15L13.5 20.5L8 22L13.5 24.5L16 30L18.5 24.5L24 22L18.5 20.5L16 15Z" />
+                  <path d="M7 16L5 20L1 21.5L5 23L7 27L9 23L13 21.5L9 20L7 16Z" />
+                  <path d="M25 16L23 20L19 21.5L23 23L25 27L27 23L31 21.5L27 20L25 16Z" />
+                </svg>
                 <div className="text-left">
                   <div className="text-xs opacity-70">Get it on</div>
                   <div className="text-lg font-bold -mt-1">AppGallery</div>
