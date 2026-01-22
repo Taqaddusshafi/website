@@ -71,16 +71,17 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-[#C7000B] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl"
               >
-                <div className="w-8 h-8 shrink-0 flex items-center justify-center">
+                <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-white/20 rounded-lg">
                   <img 
                     src="/huawei-appgallery.svg"
                     alt="Huawei AppGallery" 
-                    className="w-full h-full object-contain"
+                    className="w-6 h-6 object-contain"
+                    style={{ filter: 'brightness(0) invert(1)' }}
                   />
                 </div>
                 <div className="text-left">
-                  <div className="text-xs opacity-70">Get it on</div>
-                  <div className="text-lg font-bold -mt-1">AppGallery</div>
+                  <div className="text-[11px] font-medium leading-tight mb-0.5">Get it on</div>
+                  <div className="text-xl font-bold leading-tight">AppGallery</div>
                 </div>
               </a>
               
