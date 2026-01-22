@@ -86,13 +86,16 @@ export default function Download() {
               href="https://appgallery.huawei.com/app/C116591297"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-[#C7000B] text-white px-6 py-3 rounded-2xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl w-64 justify-start"
+              className="inline-flex items-center gap-3 bg-black text-white px-6 py-3 rounded-2xl hover:bg-gray-900 transition-all hover:scale-105 shadow-xl w-64 justify-start"
             >
-              <img 
-                src="/huawei-appgallery.svg"
-                alt="Huawei AppGallery" 
-                className="w-8 h-8 shrink-0"
-              />
+              <div className="w-8 h-8 shrink-0 flex items-center justify-center">
+                <img 
+                  src="/huawei-appgallery.svg"
+                  alt="Huawei AppGallery" 
+                  className="w-full h-full object-contain"
+                  style={{ filter: 'brightness(0) invert(1)' }}
+                />
+              </div>
               <div className="text-left">
                 <div className="text-[10px] opacity-70 uppercase tracking-wider leading-none mb-1">Get it on</div>
                 <div className="text-lg font-bold leading-none">AppGallery</div>

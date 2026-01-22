@@ -69,13 +69,16 @@ export default function Hero() {
                 href="https://appgallery.huawei.com/app/C116591297"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 bg-[#C7000B] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl"
+                className="inline-flex items-center justify-center gap-3 bg-black text-white font-semibold px-8 py-4 rounded-xl hover:bg-gray-900 transition-all hover:scale-105 shadow-xl"
               >
-                <img 
-                  src="/huawei-appgallery.svg"
-                  alt="Huawei AppGallery" 
-                  className="w-8 h-8 shrink-0"
-                />
+                <div className="w-8 h-8 shrink-0 flex items-center justify-center">
+                  <img 
+                    src="/huawei-appgallery.svg"
+                    alt="Huawei AppGallery" 
+                    className="w-full h-full object-contain"
+                    style={{ filter: 'brightness(0) invert(1)' }}
+                  />
+                </div>
                 <div className="text-left">
                   <div className="text-xs opacity-70">Get it on</div>
                   <div className="text-lg font-bold -mt-1">AppGallery</div>
