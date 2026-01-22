@@ -60,8 +60,7 @@ export default function Hero() {
                   <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.807 1.626L14.847 12l2.851-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
                 </svg>
                 <div className="text-left">
-                  <div className="text-[11px] font-medium leading-tight mb-0.5">Get it on</div>
-                  <div className="text-xl font-bold leading-tight">Google Play</div>
+                  <div className="text-xl font-bold">Google Play</div>
                 </div>
               </a>
               
@@ -72,15 +71,12 @@ export default function Hero() {
                 className="inline-flex items-center gap-3 bg-[#C7000B] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl min-w-[200px]"
               >
                 <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-white rounded-lg">
-                  <img 
-                    src="/huawei-appgallery.svg"
-                    alt="Huawei AppGallery" 
-                    className="w-7 h-7 object-contain"
-                  />
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="#C7000B">
+                    <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12z"/>
+                  </svg>
                 </div>
                 <div className="text-left">
-                  <div className="text-[11px] font-medium leading-tight mb-0.5">Get it on</div>
-                  <div className="text-xl font-bold leading-tight">AppGallery</div>
+                  <div className="text-xl font-bold">AppGallery</div>
                 </div>
               </a>
               
