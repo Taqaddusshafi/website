@@ -60,8 +60,7 @@ export default function Hero() {
                   <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.807 1.626L14.847 12l2.851-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
                 </svg>
                 <div className="text-left">
-                  <div className="text-xs opacity-70">Get it on</div>
-                  <div className="text-lg font-bold -mt-1">Google Play</div>
+                  <div className="text-sm font-semibold">Google Play</div>
                 </div>
               </a>
               
@@ -69,7 +68,7 @@ export default function Hero() {
                 href="https://appgallery.huawei.com/app/C116591297"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 bg-black text-white font-semibold px-8 py-4 rounded-xl hover:bg-gray-900 transition-all hover:scale-105 shadow-xl"
+                className="inline-flex items-center justify-center gap-3 bg-[#C7000B] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl"
               >
                 <div className="w-8 h-8 shrink-0 flex items-center justify-center">
                   <img 

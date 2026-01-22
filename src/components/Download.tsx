@@ -86,7 +86,7 @@ export default function Download() {
               href="https://appgallery.huawei.com/app/C116591297"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-black text-white px-6 py-3 rounded-2xl hover:bg-gray-900 transition-all hover:scale-105 shadow-xl w-64 justify-start"
+              className="inline-flex items-center gap-3 bg-[#C7000B] text-white px-6 py-3 rounded-2xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl w-64 justify-start"
             >
               <div className="w-8 h-8 shrink-0 flex items-center justify-center">
                 <img 
