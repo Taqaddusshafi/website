@@ -93,7 +93,6 @@ export default function Download() {
                   src="/huawei-appgallery.svg"
                   alt="Huawei AppGallery" 
                   className="w-full h-full object-contain"
-                  style={{ filter: 'brightness(0) invert(1)' }}
                 />
               </div>
               <div className="text-left">
