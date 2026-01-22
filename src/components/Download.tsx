@@ -88,12 +88,11 @@ export default function Download() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#C7000B] text-white px-6 py-3 rounded-2xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl w-64 justify-start"
             >
-              <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-white/20 rounded-lg">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-white rounded-lg">
                 <img 
                   src="/huawei-appgallery.svg"
                   alt="Huawei AppGallery" 
-                  className="w-6 h-6 object-contain"
-                  style={{ filter: 'brightness(0) invert(1)' }}
+                  className="w-7 h-7 object-contain"
                 />
               </div>
               <div className="text-left">
