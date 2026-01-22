@@ -83,7 +83,7 @@ export default function Download() {
 
             {/* Huawei App Gallery - Active */}
             <a
-              href="#"
+              href="https://appgallery.huawei.com/app/C116591297"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#C7000B] text-white px-6 py-3 rounded-2xl hover:bg-[#a60009] transition-all hover:scale-105 shadow-xl w-64 justify-start"

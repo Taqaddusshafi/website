@@ -111,6 +111,16 @@ export default function Footer() {
                   Play Store
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://appgallery.huawei.com/app/C116591297"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  AppGallery
+                </a>
+              </li>
             </ul>
           </div>
 
